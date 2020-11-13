@@ -5,8 +5,6 @@ from helpers.parsers import parse_direction
 
 
 DEFAULTS = {
-    'date_from': date.today().strftime('%d/%m/%Y'),
-    'date_to': (date.today() + timedelta(days=31)).strftime('%d/%m/%Y'),
     'bnum': 1,
     'pnum': 1,
     'currency': 'USD',
