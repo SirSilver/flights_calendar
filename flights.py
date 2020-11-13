@@ -53,7 +53,7 @@ async def get_flight(fly_from, fly_to, date_from, date_to):
             break
         elif valid_or_new_price is int:
             flight['price'] = valid_or_new_price
-        elif valid_or_new_price:
+        else:
             flights.remove(flight)
 
     return flight
