@@ -3,8 +3,8 @@ Calendar for the cheapest flights in choosen directions using [kiwi api](https:/
 The cache is in server memory, so it is cleared after restart
 
 ## Packages
-    * aiohttp
-    * aiohttp_cache
+* aiohttp
+* aiohttp_cache
 
 # Usage
 Run server.py and locate results in 0.0.0.0:8080 (by default)
