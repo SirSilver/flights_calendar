@@ -14,10 +14,6 @@ DEFAULTS = {
 }
 
 
-def _get_filename(flight):
-    return f'{flight["flyFrom"]}-{flight["flyTo"]}.json'
-
-
 async def validate(flight):
     """
     Check if flight is valid or price has not been changed
